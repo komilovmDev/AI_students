@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { FiSend } from "react-icons/fi";
 
 const ChatForm = ({ setChatHistory, generateBotResponse, chatHistory }) => {
   const inputRef = useRef();
@@ -27,7 +28,7 @@ const ChatForm = ({ setChatHistory, generateBotResponse, chatHistory }) => {
         className="message-input"
         required
       />
-      <button class="material-symbols-rounded">arrow_upward</button>
+      <button class="material-symbols-rounded"><FiSend /></button>
     </form>
   );
 };

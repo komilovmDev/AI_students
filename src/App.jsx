@@ -69,16 +69,13 @@ function App() {
             <ChatbotIcon />
             <h2 className="logo-text">ChatBot</h2>
           </div>
-          <button className="material-symbols-outlined">
-            keyboard_arrow_down
-          </button>
         </div>
         {/* Chatbot body */}
         <div className="chat-body">
           <div className="message bot-message">
             <ChatbotIcon />
             <p className="message-text">
-              Hey there 👋! I'm a ChatBot. How can I help you today?
+              👋 Salom hurmatli student sizga qanday yordam bera olaman?
             </p>
           </div>
           {/* Render the chat history dynamically */}
