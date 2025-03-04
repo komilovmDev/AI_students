@@ -818,7 +818,10 @@ RANCH texnologiya Universitetining kengashi
 tomonidan ma’qullangan 14.01.2023 yildagi 3-sonli bayonnoma
 "
 
-rektor: "Juratbek Otajanov Otaboyevich"
+rektor: "Atajonov Jur'atbek Atavayevich Urganch Ranch texnologiya universiteti rektori v.v.b. Qabul vaqti:
+Har kuni: 11:00-12:00 Email:
+j.atajonov@utu-ranch.uz Kontakt:
++998 (91) 868 00 60"
 
 Iqtisodiyot guruhi 23-01 dars jadvali:
     dushanba:[ 
