@@ -823,6 +823,206 @@ Har kuni: 11:00-12:00 Email:
 j.atajonov@utu-ranch.uz Kontakt:
 +998 (91) 868 00 60"
 
+
+
+
+
+
+// ================================================================================================================================================================================================ 
+
+
+
+
+
+
+
+
+
+Kunduzgi ta’lim yoʻnalishlari: "
+Yo'nalish kodi
+Yo'nalishlar nomi
+Shartnoma narxi
+60410100
+Iqtisodiyot
+17 002 750 so'm
+60410200
+Buxgalteriya hisobi
+17 002 750 so'm
+60410800
+Menejment
+17 002 750 so'm
+60411200
+Marketing
+17 002 750 so'm
+60230100
+Filologiya va tillarni o’qitish (rus tili)
+15 456 000 so'm
+60230100
+Filologiya va tillarni o’qitish (oz'bek tili)
+15 456 000 so'm
+60230100
+Filologiya va tillarni o’qitish (ingliz tili)
+15 456 000 so'm
+60110200
+Maktabgacha ta’lim (o'quv muddati: kunduzgi - 3 yil, sirtqi - 5 yil)
+15 456 000 so'm
+60540100
+Matematika
+15 456 000 so'm
+60610300
+Kompyuter injiniringi (Kompyuter injiniringi)
+17 002 750 so'm
+60610300
+Kompyuter injiniringi (Multimedia texnologiyalari)
+17 002 750 so'm
+60610300
+Kompyuter injiniringi (Kompyuter tizimlari axborot xavfsizligi)
+17 002 750 so'm
+60610300
+Kompyuter injiniringi (Ma'lumotlar ilmi)
+17 002 750 so'm
+60611200
+Kiberxavfsizlik injiniringi
+17 002 750 so'm
+60720400
+Texnologik mashinalar va jihozlar (Mashinasozlik va metallga ishlov berish bo'yicha)
+17 002 750 so'm
+60110400
+Boshlang'ich ta'lim
+16 016 000 so'm
+60410600
+Bank ishi
+18 032 000 so'm
+60710400
+Energetika muhandisligi (Elektr ta'minoti)
+18 032 000 so'm
+60711400
+Transport vositalari muhandisligi (Avtomobil transporti bo'yicha)
+18 032 000 so'm
+61010200
+Sport faoliyati (Boks)
+18 032 000 so'm
+61010200
+Sport faoliyati (Voleybol)
+18 032 000 so'm
+61010200
+Sport faoliyati (Yengil atletika)
+18 032 000 so'm
+61010200
+Sport faoliyati (Futbol)
+18 032 000 so'm
+61010200
+Sport faoliyati (Erkin kurash)
+18 032 000 so'm
+61010400
+Logistika
+18 032 000 so'm
+60910200
+Davolash ishi (o'quv muddati - 6 yil)
+27 500 000 so'm
+60910100
+Stomatologiya (o'quv muddati - 5 yil)
+29 000 000 so'm
+60910300
+Pediatriya ishi (o'quv muddati - 6 yil)
+27 500 000 so'm
+60730900
+Shahar qurilishi va loyihalash
+18 032 000 so'm
+60730100
+Arxitektura
+18 032 000 so'm
+60111200
+Jismoniy madaniyat (o'quv muddati: kunduzgi - 3 yil, sirtqi - 5 yil)
+18 032 000 so'm
+"
+
+
+
+Sirtqi taʻlim yoʻnalishlari: "
+    Yo'nalish kodi
+Yo'nalishlar nomi
+Shartnoma narxi
+60410100
+Iqtisodiyot
+12 936 000 so'm
+60410200
+Buxgalteriya hisobi
+12 936 000 so'm
+60410800
+Menejment
+12 936 000 so'm
+60411200
+Marketing
+12 936 000 so'm
+60110200
+Maktabgacha ta’lim (o'quv muddati: kunduzgi - 3 yil, sirtqi - 5 yil)
+12 040 000 so'm
+60610300
+Kompyuter injiniringi (Kompyuter injiniringi)
+16 363 648 so'm
+60610300
+Kompyuter injiniringi (Multimedia texnologiyalari)
+16 363 648 so'm
+60610300
+Kompyuter injiniringi (Kompyuter tizimlari axborot xavfsizligi)
+16 363 648 so'm
+60610300
+Kompyuter injiniringi (Ma'lumotlar ilmi)
+16 363 648 so'm
+60611200
+Kiberxavfsizlik injiniringi
+16 363 648 so'm
+60720400
+Texnologik mashinalar va jihozlar (Mashinasozlik va metallga ishlov berish bo'yicha)
+14 610 400 so'm
+60110400
+Boshlang'ich ta'lim
+√* 12 936 000 so'm
+60410600
+Bank ishi
+16016000 so'm
+60710400
+Energetika muhandisligi (Elektr ta'minoti)
+14 560 000 so'm
+60711400
+Transport vositalari muhandisligi (Avtomobil transporti bo'yicha)
+14 560 000 so'm
+61010200
+Sport faoliyati (Boks)
+14 560 000 so'm
+61010200
+Sport faoliyati (Voleybol)
+14 560 000 so'm
+61010200
+Sport faoliyati (Yengil atletika)
+14 560 000 so'm
+61010200
+Sport faoliyati (Futbol)
+14 560 000 so'm
+61010200
+Sport faoliyati (Erkin kurash)
+14 560 000 so'm
+61010400
+Logistika
+14 560 000 so'm
+60730900
+Shahar qurilishi va loyihalash
+√** 14 560 000 so'm
+60730100
+Arxitektura
+√** 14 560 000 so'm
+60111200
+Jismoniy madaniyat (o'quv muddati: kunduzgi - 3 yil, sirtqi - 5 yil)
+√* 14 560 000 so'm
+"
+
+
+
+
+
+// RASPSANIYA
+
 Iqtisodiyot guruhi 23-01 dars jadvali:
     dushanba:[ 
         soat 9:00-10:30 - Iqtisodiyot nazariyasi
