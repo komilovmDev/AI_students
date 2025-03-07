@@ -1018,9 +1018,6 @@ Jismoniy madaniyat (o'quv muddati: kunduzgi - 3 yil, sirtqi - 5 yil)
 "
 
 
-
-
-
 // RASPSANIYA
 
 Iqtisodiyot guruhi 23-01 dars jadvali:

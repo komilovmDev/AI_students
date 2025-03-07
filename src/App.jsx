@@ -16,13 +16,13 @@ function App() {
 
   const generateBotResponse = async (history) => {
     const formattedHistory = history.map(({ role, text }) => ({
-      role: role === "bot" ? "model" : "user", // Convert 'bot' to 'model'
+      role: role === "bot" ? "model" : "user",
       parts: [{ text }],
     }));
-
+  
     const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
     const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
-
+  
     const requestOption = {
       method: "POST",
       headers: {
@@ -30,35 +30,54 @@ function App() {
       },
       body: JSON.stringify({ contents: formattedHistory }),
     };
-
+  
     try {
       if (!apiKey) {
         throw new Error(
           "REACT_APP_GEMINI_API_KEY is missing in environment variables."
         );
       }
-
+  
+      // 1️⃣ Yangi "Thinking..." qo‘shishdan oldin eski "Thinking..." ni o‘chiramiz
+      setChatHistory((prevChatHistory) => 
+        prevChatHistory.filter((chat) => chat.id !== "thinking")
+      );
+  
+      // 2️⃣ Endi faqat bitta "Thinking..." qo‘shiladi
+      setChatHistory((prevChatHistory) => [
+        ...prevChatHistory,
+        { role: "model", text: "Thinking...", id: "thinking" }, // ID muhim
+      ]);
+  
       const response = await fetch(apiUrl, requestOption);
       const data = await response.json();
-
+  
       if (!response.ok) {
         throw new Error(data.error?.message || "Something went wrong!");
       }
-
+  
       const botResponse = data.candidates?.[0]?.content?.parts?.[0]?.text;
       if (!botResponse) {
         throw new Error("Invalid response format from API");
       }
-
-      setChatHistory((prevChatHistory) => [
-        ...prevChatHistory,
-        { role: "bot", text: botResponse }, // Keep 'bot' for UI but send 'model' to API
-      ]);
+  
+      // 3️⃣ "Thinking..." xabarini haqiqiy bot javobi bilan almashtiramiz
+      setChatHistory((prevChatHistory) =>
+        prevChatHistory.map((chat) =>
+          chat.id === "thinking" ? { role: "model", text: botResponse } : chat
+        )
+      );
     } catch (error) {
       console.error(error);
       alert(`Error: ${error.message}`);
+  
+      // Xatolik bo‘lsa ham, "Thinking..." ni o‘chiramiz
+      setChatHistory((prevChatHistory) =>
+        prevChatHistory.filter((chat) => chat.id !== "thinking")
+      );
     }
   };
+  
 
   return (
     <div className="container">
@@ -75,7 +94,7 @@ function App() {
           <div className="message bot-message">
             <ChatbotIcon />
             <p className="message-text">
-              👋 Salom hurmatli student sizga qanday yordam bera olaman?
+              👋 Salom
             </p>
           </div>
           {/* Render the chat history dynamically */}
@@ -95,5 +114,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

@@ -10,13 +10,18 @@ const ChatForm = ({ setChatHistory, generateBotResponse, chatHistory }) => {
     if (!userMessage) return;
     inputRef.current.value = "";
 
-    setChatHistory((history) => [...history,{ role: "user", text: userMessage },]);
+    // 1️⃣ Foydalanuvchi xabarini qo‘shamiz
+    setChatHistory((history) => [
+      ...history,
+      { role: "user", text: userMessage },
+      { role: "model", text: "Thinking...", id: "thinking" }, // Unique ID qo‘shamiz
+    ]);
 
-    setTimeout(() => {
-      setChatHistory((history) => [ ...history,{ role: "model", text: "Thinking..." },]);
-    }, 600);
-
-    generateBotResponse([...chatHistory, { role: "user", text: `Salom: ${userMessage}` }]);
+    // 2️⃣ Bot javobi generatsiyasiga to‘g‘ri tarixni uzatamiz
+    generateBotResponse([
+      ...chatHistory,
+      { role: "user", text: userMessage },
+    ]);
   };
 
   return (
@@ -28,7 +33,9 @@ const ChatForm = ({ setChatHistory, generateBotResponse, chatHistory }) => {
         className="message-input"
         required
       />
-      <button class="material-symbols-rounded"><FiSend /></button>
+      <button type="submit" className="material-symbols-rounded">
+        <FiSend />
+      </button>
     </form>
   );
 };
