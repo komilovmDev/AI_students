@@ -1025,6 +1025,38 @@ Jismoniy madaniyat (o'quv muddati: kunduzgi - 3 yil, sirtqi - 5 yil)
 
 // RASPSANIYA
 
+
+Ingiliz tili (A) 24-01 dars jadvali:
+    dushanba: [
+        soat 9:00-10:20 - O'zbekiston eng yaxshi tarixi (maruza) 403-xona ,
+        soat 10:30-11:50 - O'qish va yozish amaliyoti (amaliy) 422-xona
+    ],
+    seshanba: [
+        soat 9:00-10:20 - Og'zaki nutq amaliyoti (amaliy) 422-xona,
+        soat 10:30-11:50 - O'zbekiston eng yaxshi tarixi (seminar) 304-xona / Dinshunoslik (seminar) 304-xona
+    ],
+    chorshanba: [
+        soat 9:00-10:20 - Dinshunoslik (maruza) 403-xona,
+        soat 10:30-11:50 - Amaliy grammatika va fonetika (amaliy) 422-xona
+    ],
+    payshanba: [
+        soat 9:00-10:20 - O'zbek (rus) tili 409-xona,
+        soat 10:30-11:50 - O'qish va yozishish amaliyoti (amaliy) 422-xona / Og'zaki nutq amaliyoti (amaliy) 422-xona
+    ],
+    juma: [
+        soat 9:00-10:20 - O'zbek (rus) tili 311-xona,
+        soat 10:30-11:50 - Adabiyotshunoslik (maruza) 403-xona
+    ],
+    shanba: [
+        soat 9:00-10:20 - Og'zaki nutq amaliyoti (amaliy) 422-xona,
+        soat 10:30-11:50 - Adabiyotshunoslik (maruza) 403-xona
+    ],
+        
+
+
+
+
+
 Iqtisodiyot guruhi 23-01 dars jadvali:
     dushanba:[ 
         soat 9:00-10:30 - Iqtisodiyot nazariyasi
