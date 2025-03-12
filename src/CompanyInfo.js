@@ -1043,3 +1043,5 @@ Iqtisodiyot guruhi 23-01 dars jadvali:
         soat 10:40-12:10 - Iqtisodiyot nazariyasi
     ],
 `;
+
+
